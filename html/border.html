@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .border {
+            width: 0px;
+            height: 0px;
+            border: 10px solid;
+            border-color: #ff3300 #0000ff #339966 #00ff00;
+        }
+
+        .inlineBlock {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            background: red;
+            margin: 0;
+            padding: 0;
+            /* font-size: 0; */
+        }
+    </style>
+</head>
+
+<body>
+    <p>border三角形,宽高无，border挤出去</p>
+    <div class="border"></div>
+    <p></p>
+    <br>
+
+    <div>
+        <div class="inlineBlock"></div>
+        <div class="inlineBlock"></div>
+    </div>
+</body>
+
+</html>
