@@ -38,6 +38,10 @@ hashRouter中的hash去除
 setState什么时候是同步的
 diff算法
 willmount,didmount发请求的区别
+react.memo
+react.lazy
+suspense
+
 
 
 #####Css
